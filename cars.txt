@@ -1,0 +1,13 @@
+car_id							BIGINT					NOTNULL				AUTO_INCREMENT
+brand								VARCHAR					NOTNULL
+model								VARCHAR					NOTNULL
+production_year			YEAR						NOTNULL
+color								VARCHAR					NOTNULL
+type								VARCHAR					NOTNULL
+bluetooth						TINYINT(1)			NULL
+seats								TINYINT					NOTNULL
+airbags							TINYINT(1)			NULL
+price								DOUBLE(8,2)			NOTNULL				DEFAULT 0.00
+air conditioning		TINYINT(1)			NULL
+autopilot						TINYINT(1)			NULL
+license_plate				VARCHAR					NOTNULL
