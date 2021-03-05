@@ -7,7 +7,7 @@ type								VARCHAR					NOTNULL
 bluetooth						TINYINT(1)			NULL
 seats								TINYINT					NOTNULL
 airbags							TINYINT(1)			NULL
-price								DOUBLE(8,2)			NOTNULL				DEFAULT 0.00
+price								FLOAT(8,2)			NOTNULL				DEFAULT 0.00
 air conditioning		TINYINT(1)			NULL
 autopilot						TINYINT(1)			NULL
 license_plate				VARCHAR					NOTNULL
